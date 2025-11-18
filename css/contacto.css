@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    background-image: url(../imagenes/contacto/fondo.png);
+}
+
+/* Estilos del logo */
+.logo {
+    width: 300%;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.bg-light {
+    background-color: #535152 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    max-width: 50px;
+}
+
+.nav-item a {
+    font-family: 'Quicksand', sans-serif;
+    color: #f5f1e8 !important;
+    font-size: 15px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-right: 55px;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    transition: color 1s;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+/* Estilos de los textos */
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-size: 44px;
+    margin-top: 9%;
+    margin-left: 35%;
+    letter-spacing: 4px;
+}
+
+/* Estilos de la sección de contacto */
+.contacto {
+    display: block;
+    margin-top: 20px;
+    margin-left: 25%;
+    max-width: 629px;
+    height: 554px;
+}
+
+.itemcontacto {
+    position: relative;
+    padding-top: 48px;
+    left: 19%;
+    list-style: none;
+}
+
+.contacto li {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 2px solid #271717;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    list-style: none;
+    max-width: 350px;
+}
+
+.titular {
+    font-weight: 600;
+    font-family: var(--bs-font-sans-serif);
+}
+
+.contacto img {
+    max-width: 12%;
+    margin-right: 4%;
+}
+
+.imagen1,
+.imagen2 {
+    display: block;
+    position: absolute;
+    top: 96px;
+}
+
+.imagen1 {
+    left: 80%;
+}
+
+.imagen1 img,
+.imagen2 img {
+    max-height: 554px;
+}
+
+.imagen2 {
+    left: 9%;
+}
+
+/* Estilos de los botones */
+.btn {
+    color: rgb(212, 212, 212);
+    background-color: #412e00;
+}
+
+.btn-outline-success {
+    color: rgb(26, 34, 34);
+    background-color: #ddb44c;
+    border-color: #fffdfd;
+    border-radius: 0;
+}
+
+.btn-outline-success:hover {
+    background-color: #252016;
+    border: #ebe8e8;
+}
+
+/* Estilos del footer con imagen */
+.footer-con-imagen {
+    background-image: url('../imagenes/footer/Banner\ web\ horizontal\ nueva\ colección\ ropa\ minimalista\ beige.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 20px;
+}
+
+.text-muted {
+    color: #fafafa !important;
+}

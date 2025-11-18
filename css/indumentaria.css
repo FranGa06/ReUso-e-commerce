@@ -1,0 +1,198 @@
+body{
+    background-color: #e5e0d7;
+}
+/* Estilos del logo*/
+.logo {
+    width: 300%;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.bg-light {
+    background-color: #535152 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    max-width: 50px;
+}
+
+.nav-item a {
+    font-family: 'Quicksand', sans-serif;
+    color: #f5f1e8 !important;
+    font-size: 15px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-right: 55px;
+}
+
+.nav a {
+    color: rgb(255, 255, 255);
+    transition: color 1s;
+    display: inline-block;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+/* Estilos del titulo*/
+
+
+
+/*Estilos de  la portada*/
+
+.portada {
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .indumentaria {
+    width: 100%;
+    height: auto;
+    filter: blur(2px);
+
+}
+  
+  
+  .texto {
+    font-size: 120px;
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+/*Estilos de las cards*/
+.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    flex: 1;
+    border-color: #ad9a6f;
+    margin: 20px;
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-content {
+    overflow: hidden;
+
+}
+
+.card-content img {
+    width: 100%; 
+}
+
+
+.card-title {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+
+/*Estilos de los botones*/
+
+.btn {
+    color: rgb(212, 212, 212);
+    background-color:#412e00;
+}
+
+
+.btn-outline-success {
+    color:rgb(26, 34, 34);
+    background-color: #ddb44c;
+    border-color: #fffdfd;
+    border-radius: 0;
+}
+.btn-outline-success:hover{
+    background-color: #252016;
+    border: #ebe8e8;
+   
+   
+}
+
+.form-control{
+    border-radius: 0 ;
+}
+
+.botoncompra {
+    background-color: #ddb44c;
+    margin-left: 30% ;
+    border: 1px solid #351a1a; 
+    padding: 10px 20px;
+ }
+
+
+    .botoncompra:hover {
+        background-color: #2b271f; 
+        color: #ebe8e8;
+    }
+
+    
+
+    .footer-con-imagen {
+        background-image: url('../imagenes/footer/Banner\ web\ horizontal\ nueva\ colección\ ropa\ minimalista\ beige.png'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover; /* Ajusta el tamaño de la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: center; /* Centra la imagen de fondo */
+        color: white; /* Ajusta el color del texto para que sea legible en la imagen de fondo */
+        padding: 20px; /* Añade espacio alrededor del contenido dentro del footer */
+      }
+
+      .text-muted {
+        color: #fafafa!important;
+    }
+
+    .nav a{
+        color: rgb(255, 255, 255); 
+    transition: color 1s;
+    
+    display: inline-block;
+   margin-left: 50px;
+   text-decoration: none;
+    }
+
+    .nav a:hover{
+        text-decoration: underline;
+    }
+
+        
